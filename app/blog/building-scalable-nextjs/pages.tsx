@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { ArrowLeft, BookOpen, Calendar, Clock, Share2, Bookmark, ThumbsUp } from 'lucide-react'
+import { ArrowLeft, Calendar, Clock, Share2, Bookmark, ThumbsUp } from 'lucide-react'
 
 export const metadata = {
   title: 'Building Scalable Web Applications with Next.js and TypeScript | Rajeev Ranjan Sinha',

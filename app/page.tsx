@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { ArrowRight, Github, Linkedin, Mail, ExternalLink, BookOpen, Zap, Sparkles, Code2, Briefcase, Users } from 'lucide-react'
+import { ArrowRight, Github, Linkedin, Mail, ExternalLink, BookOpen, Zap, Sparkles, Code2, Users } from 'lucide-react'
 import Image from 'next/image'
 
 export default function Home() {
