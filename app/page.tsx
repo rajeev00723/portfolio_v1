@@ -255,7 +255,7 @@ export default function Home() {
               <div className="absolute top-4 left-4 space-y-2">
                 <div className="bg-white/90 dark:bg-zinc-900/90 backdrop-blur rounded-lg px-3 py-2 inline-flex items-center gap-2 shadow-lg">
                   <span className="text-xl">⭐</span>
-                  <span className="text-sm font-medium text-zinc-900 dark:text-white">Published Author</span>
+                  <span className="text-sm font-medium text-zinc-900 dark:text-white">5.0 Rating</span>
                 </div>
               </div>
             </div>
