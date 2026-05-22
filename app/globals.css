@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --foreground: 0 0% 0%;
+    --background: 0 0% 100%;
+  }
+
+  html.dark {
+    --foreground: 0 0% 100%;
+    --background: 0 0% 0%;
+  }
+
+  body {
+    @apply antialiased;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-zinc-100 dark:bg-zinc-900;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-zinc-400 dark:bg-zinc-700 rounded-full hover:bg-zinc-500 dark:hover:bg-zinc-600;
+  }
+}
+
+@layer components {
+  /* Smooth transitions */
+  * {
+    @apply transition-colors duration-200;
+  }
+
+  /* Article typography */
+  .prose {
+    @apply max-w-3xl mx-auto;
+  }
+
+  .prose h1 {
+    @apply text-4xl sm:text-5xl font-serif font-bold mb-6 mt-8 first:mt-0;
+  }
+
+  .prose h2 {
+    @apply text-3xl font-serif font-bold mb-4 mt-8;
+  }
+
+  .prose h3 {
+    @apply text-2xl font-serif font-bold mb-3 mt-6;
+  }
+
+  .prose p {
+    @apply text-lg leading-relaxed mb-4 text-zinc-700 dark:text-zinc-300;
+  }
+
+  .prose ul,
+  .prose ol {
+    @apply mb-4 ml-6;
+  }
+
+  .prose li {
+    @apply mb-2 text-lg leading-relaxed text-zinc-700 dark:text-zinc-300;
+  }
+
+  .prose a {
+    @apply text-blue-600 dark:text-blue-400 hover:underline;
+  }
+
+  .prose code {
+    @apply bg-zinc-100 dark:bg-zinc-800 px-2 py-1 rounded font-mono text-sm;
+  }
+
+  .prose pre {
+    @apply bg-zinc-900 dark:bg-zinc-950 text-zinc-100 p-4 rounded-lg overflow-x-auto mb-4;
+  }
+
+  .prose blockquote {
+    @apply border-l-4 border-blue-600 pl-4 italic text-zinc-600 dark:text-zinc-400 my-4;
+  }
+
+  /* Animations */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .animate-fade-in-up {
+    animation: fadeInUp 0.6s ease-out;
+  }
+
+  .animate-slide-in {
+    animation: slideIn 0.6s ease-out;
+  }
+
+  /* Gradient text */
+  .gradient-text {
+    @apply bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent;
+  }
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
