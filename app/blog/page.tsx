@@ -141,8 +141,6 @@ export default function BlogPage() {
   const allTips = tipsAndTricks
   const allContent = [...detailedArticles, ...tipsAndTricks].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
 
-  const categories = ['All', ...new Set([...allArticles, ...allTips].map(p => p.category))]
-
   return (
     <div className="min-h-screen bg-white dark:bg-zinc-900">
       {/* Navigation */}
