@@ -172,6 +172,14 @@ export default function Home() {
 
       {/* Hero Section with Profile */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-32">
+        <div className="mb-8 flex justify-center">
+          <Image
+            src="/logos/logo.svg"
+            alt="Logo"
+            width={80}
+            height={80}
+          />
+        </div>
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left: Text Content */}
           <div className="space-y-8">
@@ -593,7 +601,15 @@ export default function Home() {
           </div>
 
           <div className="border-t border-zinc-800 pt-8 flex flex-col sm:flex-row justify-between items-center">
-            <p className="text-sm">© 2026 Rajeev Ranjan Sinha. All rights reserved.</p>
+            <Link href="/" className="flex items-center gap-2">
+              <Image
+                src="/logos/logo.svg"
+                alt="RRS Logo"
+                width={30}
+                height={30}
+              />
+              <span className="text-sm">© 2026 RRS</span>
+            </Link>
             <div className="flex gap-4 mt-4 sm:mt-0 text-sm">
               <a href="#" className="hover:text-white transition">Privacy</a>
               <a href="#" className="hover:text-white transition">Terms</a>

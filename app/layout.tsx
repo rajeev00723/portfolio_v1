@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter, Playfair_Display } from 'next/font/google'
 import './globals.css'
+import { link } from 'fs/promises'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -15,6 +16,9 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: 'Rajeev Ranjan Sinha | Portfolio & Blog',
   description: 'Professional portfolio and personal blog showcasing projects, insights, and expertise.',
+  icons: {
+    icon: '/favicon.svg',
+  },
   openGraph: {
     title: 'Rajeev Ranjan Sinha | Portfolio & Blog',
     description: 'Professional portfolio and personal blog',
