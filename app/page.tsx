@@ -140,8 +140,10 @@ export default function Home() {
       {/* Navigation */}
       <nav className="sticky top-0 z-50 bg-white/95 dark:bg-zinc-950/95 backdrop-blur border-b border-zinc-200 dark:border-zinc-800">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
-          <Link href="/" className="text-2xl font-bold font-serif text-zinc-900 dark:text-white">
-            RRS
+          <Link href="/" className="flex items-center">
+            <svg width="40" height="40" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+              {/* Paste logo SVG code here */}
+            </svg>
           </Link>
           <div className="hidden md:flex gap-8">
             <Link href="#about" className="text-sm text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-white transition">
@@ -244,7 +246,7 @@ export default function Home() {
               {/* Badge */}
               <div className="absolute -bottom-4 -right-4 bg-white dark:bg-zinc-900 rounded-full p-4 shadow-lg border border-zinc-200 dark:border-zinc-800">
                 <div className="text-center">
-                  <p className="text-2xl font-bold text-zinc-900 dark:text-white">10+</p>
+                  <p className="text-2xl font-bold text-zinc-900 dark:text-white">20+</p>
                   <p className="text-xs text-zinc-600 dark:text-zinc-400">Years Exp.</p>
                 </div>
               </div>
