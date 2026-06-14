@@ -52,6 +52,15 @@ export default function Home() {
       link: '#',
       github: 'https://github.com/rajeev00723',
     },
+    {
+      id: 4,
+      title: 'FIFA Hobby Project',
+      description: 'A unique football analytics and strategy dashboard with an API-first backend, PostgreSQL storage, and Docker-powered local orchestration for immersive match insights.',
+      image: '⚽',
+      tags: ['Next.js', 'React', 'Node.js', 'PostgreSQL', 'Docker'],
+      link: 'https://github.com/rajeev00723/fifa',
+      github: 'https://github.com/rajeev00723/fifa',
+    },
   ]
 
   // Detailed articles
@@ -262,8 +271,8 @@ export default function Home() {
               {/* Social proof */}
               <div className="absolute top-4 left-4 space-y-2">
                 <div className="bg-white/90 dark:bg-zinc-900/90 backdrop-blur rounded-lg px-3 py-2 inline-flex items-center gap-2 shadow-lg">
-                  <span className="text-xl">⭐</span>
-                  <span className="text-sm font-medium text-zinc-900 dark:text-white">5.0 Rating</span>
+                  <span className="text-xl"></span>
+                  <span className="text-sm font-medium text-zinc-900 dark:text-white"></span>
                 </div>
               </div>
             </div>
