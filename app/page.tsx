@@ -58,7 +58,7 @@ export default function Home() {
       description: 'A unique football analytics and strategy dashboard with an API-first backend, PostgreSQL storage, and Docker-powered local orchestration for immersive match insights.',
       image: '⚽',
       tags: ['Next.js', 'React', 'Node.js', 'PostgreSQL', 'Docker'],
-      link: 'https://fifa.rajeevbuilds.dev/,
+      link: 'https://fifa.rajeevbuilds.dev/',
       github: 'https://github.com/rajeev00723/fifa',
     },
   ]
