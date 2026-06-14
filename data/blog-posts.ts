@@ -22,7 +22,7 @@ export const blogPosts: BlogPost[] = [
     slug: 'css-grid-autofill',
     title: 'CSS Grid Auto-Fit: Responsive Layouts Without Media Queries',
     excerpt:
-      'One line of CSS replaces all your breakpoints. Here's how CSS Grid's auto-fit gives you fluid, responsive columns with zero @media rules.',
+      'One line of CSS replaces all your breakpoints. Here\'s how CSS Grid\'s auto-fit gives you fluid, responsive columns with zero @media rules.',
     date: 'May 20, 2026',
     readTime: '3 min read',
     category: 'CSS',
@@ -104,7 +104,7 @@ This pattern works great for cards, thumbnails, and content tiles. Avoid it when
     slug: 'react-hooks-memo',
     title: 'useCallback vs useMemo: When Each One Actually Helps',
     excerpt:
-      'Both hooks memoize things — but memoizing the wrong thing is worse than not memoizing at all. Here's the mental model that makes it click.',
+      'Both hooks memoize things — but memoizing the wrong thing is worse than not memoizing at all. Here\'s the mental model that makes it click.',
     date: 'May 18, 2026',
     readTime: '4 min read',
     category: 'React',
@@ -279,7 +279,7 @@ git checkout <hash>
     slug: 'terminal-aliases',
     title: 'Terminal Aliases: The 10-Minute Setup That Saves Hours Every Week',
     excerpt:
-      'The commands you type fifty times a day deserve better than fifty keystrokes. Here's how to set up aliases that actually stick.',
+      'The commands you type fifty times a day deserve better than fifty keystrokes. Here\'s how to set up aliases that actually stick.',
     date: 'May 12, 2026',
     readTime: '4 min read',
     category: 'Terminal',
@@ -392,7 +392,7 @@ Spend 10 minutes setting up aliases now. You'll recoup that investment within th
     slug: 'vscode-thunder-client',
     title: 'Thunder Client: Test APIs Without Leaving VS Code',
     excerpt:
-      'A lightweight REST client built right into your editor. No tab switching, no Postman license, no friction — just fast API testing where you're already working.',
+      'A lightweight REST client built right into your editor. No tab switching, no Postman license, no friction — just fast API testing where you\'re already working.',
     date: 'May 10, 2026',
     readTime: '3 min read',
     category: 'Tools',
@@ -547,7 +547,7 @@ Default to \`npx\` for any one-off CLI tool. Keep global installs reserved for t
     slug: 'devtools-network-throttle',
     title: 'Chrome DevTools: Simulate Real-World Network Conditions in 10 Seconds',
     excerpt:
-      'Your app feels instant on your gigabit office Wi-Fi. Your users on 4G think it's broken. Here's how to test what they actually experience.',
+      'Your app feels instant on your gigabit office Wi-Fi. Your users on 4G think it\'s broken. Here\'s how to test what they actually experience.',
     date: 'May 5, 2026',
     readTime: '3 min read',
     category: 'DevTools',
